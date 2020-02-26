@@ -22,7 +22,7 @@
         include "conexion.php";
 
         //hacemos un query para insertar los datos en la BD
-        $sql = "insert into georgia_directorio (nombre, apellido, empresa, email, telefono, comentarios) values('$nombre', '$apellido', '$empresa', '$email', '$telefono', '$comentarios')";
+        $sql = "insert into valentina_directorio (nombre, apellido, empresa, email, telefono, comentarios) values('$nombre', '$apellido', '$empresa', '$email', '$telefono', '$comentarios')";
 
         $nada = ejecutar($sql);
         //recuperamos la primera letra del apellido que se acaba de ingresar
